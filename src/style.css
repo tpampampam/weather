@@ -1,0 +1,134 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.form {
+  margin-top: 50px;
+} */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #06283d;
+}
+
+.wrapper {
+  padding: 20px;
+  width: 300px;
+  height: 400px;
+  background-color:darkgray;
+  border-radius: 5%;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.form input {
+  width: 88%;
+  border-radius: 18px;
+  text-transform: uppercase;
+  padding: 1px 28px;
+  border-color: #06283d;
+  outline:none;
+  border-width: 1px;
+}
+
+.form button {
+  width: 10%;
+  color: #06283d;
+  background-color: #dff6ff;
+  border-color: #fff;
+  border-radius: 30%;
+  cursor: pointer;
+}
+.weather {
+  display: flex;
+  margin: 20px auto;
+  /* align-items: center; */
+  justify-content: center;
+}
+.weather img {
+  width: 80px;
+}
+.temp {
+  display: flex;
+  justify-content: center;
+  font-size: 4rem;
+  font-weight: 500;
+}
+
+.bottom__wrapper {
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 2rem;
+}
+
+.pressure__wrapper, .humidity__wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pressure__icon, .humidity__icon {
+  font-size: 4rem;
+  height: 65px;
+}
+
+
+.pressure__title, .humidity__title {
+  font-size: 1rem;
+  font-style:inherit;
+}
+
+.pressure span{
+ font-size: 10px;
+}
+
